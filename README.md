@@ -1,6 +1,3 @@
-Here is the updated `README.md` file to match your project setup:
-
-```markdown
 # Kyle Jordan Deluz's Portfolio Website
 
 ## Overview
@@ -59,4 +56,3 @@ CMD ["nginx", "-g", "daemon off;"]
 ## Contact
 - **LinkedIn**: [kdeluz](https://www.linkedin.com/in/kdeluz/)
 - **GitHub**: [kdeluz](https://github.com/kdeluz)
-```
