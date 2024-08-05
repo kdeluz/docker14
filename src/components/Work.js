@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Work = () => (
-  <section className="p-6 bg-gray-100">
+  <section className="p-6 bg-gray-100 dark:bg-gray-800 rounded-md shadow-md">
     <h1 className="text-2xl font-bold mb-4">Work</h1>
     <div className="mb-6">
       <h2 className="text-xl font-semibold">LOLITEMSHOP</h2>
