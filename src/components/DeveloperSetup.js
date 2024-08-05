@@ -1,11 +1,11 @@
 import React from 'react';
 
 const DeveloperSetup = () => (
-  <section>
-    <h1>Developer Setup</h1>
+  <section className="p-6 bg-gray-100">
+    <h1 className="text-2xl font-bold mb-4">Developer Setup</h1>
     <p>VSCode set up with essential extensions for JavaScript and React development.</p>
-    <p>Terminal set up: Customized with Zsh and Oh My Zsh for an improved development experience.</p>
-    <p>Preferred editor font: Fira Code with ligatures enabled.</p>
+    <p>Terminal set up: Basic PowerShell compoenents such as npm, node.js and docker should be installed.</p>
+    <p>Preferred editor font: VSCode.</p>
   </section>
 );
 

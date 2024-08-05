@@ -4,6 +4,7 @@ import Work from './components/Work';
 import Skills from './components/Skills';
 import Resources from './components/Resources';
 import DeveloperSetup from './components/DeveloperSetup';
+import './index.css';
 
 function App() {
   return (
