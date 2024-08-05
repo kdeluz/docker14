@@ -1,4 +1,4 @@
-# Kyle Jordan Deluz's Portfolio Website
+# Kyle Deluz's Portfolio Website
 
 ## Overview
 
