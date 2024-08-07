@@ -5,7 +5,7 @@ const DeveloperSetup = () => (
     <h1 className="text-2xl font-bold mb-4">Developer Setup</h1>
     <p>VSCode set up with essential extensions for JavaScript and React development.</p>
     <p>Terminal set up: Basic PowerShell compoenents such as npm, node.js and docker should be installed.</p>
-    <p>Preferred editor font: VSCode.</p>
+    <p>Preferred editor font: Courier New.</p>
   </section>
 );
 

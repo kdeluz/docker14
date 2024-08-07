@@ -1,0 +1,24 @@
+# .github/workflows/ci.yml
+name: CI/CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install
+      - run: npm run build
+      - name: Docker Build and Push
+        run: |
+          docker build -t deluz_kyle_coding_assignment14 .
+          docker tag deluz_kyle_coding_assignment14:latest kdeluz/deluz_kyle_coding_assignment14:latest
+          echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+          docker push kdeluz/deluz_kyle_coding_assignment14:latest
